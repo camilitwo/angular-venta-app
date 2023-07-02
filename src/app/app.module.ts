@@ -8,6 +8,8 @@ import { IndexComponent } from './index/index.component';
 import { ContactComponent } from './contact/contact.component';
 import { CarrouselComponent } from './carrousel/carrousel.component';
 import { RedesSocialesComponent } from './redes-sociales/redes-sociales.component';
+import { LoginComponent } from './login/login.component';
+
 
 @NgModule({
   declarations: [
@@ -16,7 +18,8 @@ import { RedesSocialesComponent } from './redes-sociales/redes-sociales.componen
     IndexComponent,
     ContactComponent,
     CarrouselComponent,
-    RedesSocialesComponent
+    RedesSocialesComponent,
+    LoginComponent,
   ],
   imports: [
     BrowserModule,
