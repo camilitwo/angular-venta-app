@@ -9,6 +9,7 @@ import { ContactComponent } from './contact/contact.component';
 import { CarrouselComponent } from './carrousel/carrousel.component';
 import { RedesSocialesComponent } from './redes-sociales/redes-sociales.component';
 import { LoginComponent } from './login/login.component';
+import { SignupComponent } from './signup/signup.component';
 
 
 @NgModule({
@@ -20,6 +21,7 @@ import { LoginComponent } from './login/login.component';
     CarrouselComponent,
     RedesSocialesComponent,
     LoginComponent,
+    SignupComponent,
   ],
   imports: [
     BrowserModule,
