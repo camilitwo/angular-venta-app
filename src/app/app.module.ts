@@ -10,6 +10,8 @@ import { CarrouselComponent } from './carrousel/carrousel.component';
 import { RedesSocialesComponent } from './redes-sociales/redes-sociales.component';
 import { LoginComponent } from './login/login.component';
 import { SignupComponent } from './signup/signup.component';
+import { ProductSectionComponent } from './product-section/product-section.component';
+import { ProductsComponent } from './products/products.component';
 
 
 @NgModule({
@@ -22,6 +24,8 @@ import { SignupComponent } from './signup/signup.component';
     RedesSocialesComponent,
     LoginComponent,
     SignupComponent,
+    ProductSectionComponent,
+    ProductsComponent,
   ],
   imports: [
     BrowserModule,
