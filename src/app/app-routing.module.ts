@@ -12,6 +12,7 @@ const routes: Routes = [
   { path: 'signup', component: SignupComponent },
   {path:'login', component: LoginComponent},
   { path: 'products', component: ProductsComponent },
+  { path: '**', component: IndexComponent}
 
 ];
 
