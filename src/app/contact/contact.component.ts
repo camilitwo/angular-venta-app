@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./contact.component.css']
 })
 export class ContactComponent {
+  private router: any;
 
+  contact() {
+    this.router.navigate(['/contact']);
+  }
 }

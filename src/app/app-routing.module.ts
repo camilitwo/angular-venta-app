@@ -5,13 +5,15 @@ import { SignupComponent } from './signup/signup.component';
 import {LoginComponent} from "./login/login.component";
 import { ProductSectionComponent } from './product-section/product-section.component';
 import { ProductsComponent } from './products/products.component';
+import {ContactComponent} from "./contact/contact.component";
 
 const routes: Routes = [
-  
+
   { path: '', component: IndexComponent },
   { path: 'signup', component: SignupComponent },
   {path:'login', component: LoginComponent},
-  { path: 'products', component: ProductsComponent },
+  { path: 'products', component: ProductSectionComponent },
+  { path: 'contact' , component: ContactComponent},
   { path: '**', component: IndexComponent}
 
 ];

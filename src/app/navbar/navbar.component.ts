@@ -18,4 +18,7 @@ export class NavbarComponent {
     this.router.navigate(['/login']);
   }
 
+  contact() {
+    this.router.navigate(['/contact']);
+  }
 }
