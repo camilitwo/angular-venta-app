@@ -2,6 +2,15 @@
     cursor: pointer;
 }
 
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand svg {
+  margin-right: 0px; /* Ajusta el margen derecho según sea necesario */
+}
+
 .ball {
   position: relative;
   top: -30px;
