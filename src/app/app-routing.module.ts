@@ -11,8 +11,9 @@ const routes: Routes = [
 
   { path: '', component: IndexComponent },
   { path: 'signup', component: SignupComponent },
-  {path:'login', component: LoginComponent},
+  {path: 'login', component: LoginComponent},
   { path: 'products', component: ProductSectionComponent },
+  { path: 'more-products', component: ProductsComponent },
   { path: 'contact' , component: ContactComponent},
   { path: '**', component: IndexComponent}
 
