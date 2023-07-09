@@ -15,6 +15,7 @@ import { ProductsComponent } from './products/products.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule } from '@angular/common/http';
 import { LogoOverlayComponent } from './logo-overlay/logo-overlay.component';
+import { LateralOverlayComponent } from './lateral-overlay/lateral-overlay.component';
 
 
 
@@ -32,6 +33,7 @@ import { LogoOverlayComponent } from './logo-overlay/logo-overlay.component';
     ProductSectionComponent,
     ProductsComponent,
     LogoOverlayComponent,
+    LateralOverlayComponent,
   ],
   imports: [
     BrowserModule,

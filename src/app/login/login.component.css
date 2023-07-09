@@ -2,14 +2,14 @@
   max-width: 400px;
   margin: 0 auto;
   padding: 20px;
-  background-color: #f8f9fa;
-  color: #343a40;
+  background-color: #212529;
+  color: #ffff;
   border-radius: 5px;
 }
 
 .login-container h2 {
   text-align: center;
-  color: #343a40;
+  color: #ffff;
 }
 
 .login-container form {
@@ -23,7 +23,7 @@
 .login-container label {
   display: block;
   font-weight: bold;
-  color: #343a40;
+  color: #ffff;
 }
 
 .login-container input[type="text"],
@@ -33,7 +33,7 @@
   padding: 8px;
   border: 1px solid #ced4da;
   border-radius: 4px;
-  color: #495057;
+  color: #ffff;
 }
 
 .login-container button {
