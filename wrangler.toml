@@ -1,0 +1,7 @@
+name = "my-angular-app"
+type = "webpack"
+account_id = "<tu ID de cuenta de Cloudflare>"
+
+[site]
+bucket = "./dist"
+entry-point = "index.html"
