@@ -42,7 +42,7 @@
   transition: opacity 0.3s ease;
 }
 
-..product-section td {
+.product-section td {
   position: relative;
 }
 
