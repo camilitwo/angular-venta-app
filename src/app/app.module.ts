@@ -8,6 +8,17 @@ import { IndexComponent } from './index/index.component';
 import { ContactComponent } from './contact/contact.component';
 import { CarrouselComponent } from './carrousel/carrousel.component';
 import { RedesSocialesComponent } from './redes-sociales/redes-sociales.component';
+import { LoginComponent } from './login/login.component';
+import { SignupComponent } from './signup/signup.component';
+import { ProductSectionComponent } from './product-section/product-section.component';
+import { ProductsComponent } from './products/products.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { HttpClientModule } from '@angular/common/http';
+import { LogoOverlayComponent } from './logo-overlay/logo-overlay.component';
+import { LateralOverlayComponent } from './lateral-overlay/lateral-overlay.component';
+
+
+
 
 @NgModule({
   declarations: [
@@ -16,11 +27,19 @@ import { RedesSocialesComponent } from './redes-sociales/redes-sociales.componen
     IndexComponent,
     ContactComponent,
     CarrouselComponent,
-    RedesSocialesComponent
+    RedesSocialesComponent,
+    LoginComponent,
+    SignupComponent,
+    ProductSectionComponent,
+    ProductsComponent,
+    LogoOverlayComponent,
+    LateralOverlayComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
