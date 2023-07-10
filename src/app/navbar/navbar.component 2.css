@@ -1,0 +1,41 @@
+.nav-link {
+    cursor: pointer;
+}
+
+.ball {
+  position: relative;
+  top: -30px;
+  left: 50%;
+  transform: translateX(-50%) translateY(0); /* Modificación realizada */
+  background-color: red;
+  border-top: 4px solid red;
+  width: 90px;
+  height: 8px;
+  opacity: 0;
+  animation: bounceBall 2.5s cubic-bezier(0.25, 0.84, 0.44, 1) forwards infinite;
+}
+
+@keyframes bounceBall {
+  0% {
+    top: -30px;
+    opacity: 1;
+    transform: translateY(0); /* Modificación realizada */
+  }
+  30% {
+    top: -20px;
+    transform: translateY(5px); /* Modificación realizada */
+  }
+  50% {
+    top: -30px;
+    transform: translateY(0); /* Modificación realizada */
+  }
+  70% {
+    top: -25px;
+    transform: translateY(2px); /* Modificación realizada */
+  }
+  100% {
+    top: -30px;
+    opacity: 0;
+    transform: translateY(0); /* Modificación realizada */
+  }
+}

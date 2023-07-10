@@ -1,0 +1,12 @@
+.logo-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    padding: 10px;
+  }
+  
+  .logo-overlay.white path {
+    fill: white; /* Cambia el color de relleno del SVG a blanco */
+  }
+  

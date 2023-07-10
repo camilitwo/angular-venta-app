@@ -1,0 +1,58 @@
+.product-section {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  table {
+    width: 100%;
+  }
+  
+  td {
+    padding: 10px;
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+  }
+  
+  img {
+    width: 100%;
+    max-width: 200px; /* Ajusta el tamaño máximo de la imagen según tus necesidades */
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  h3,
+  p {
+    margin: 5px 0;
+  }
+  
+.link-custom{
+    cursor: pointer;
+}
+
+.product-section img:hover {
+  transform: scale(2.1); /* Aplica un efecto de escala al 110% */
+  transition: transform 0.3s ease; /* Añade una transición suave de 0.3 segundos */
+}
+
+.product-section h3,
+.product-section p {
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+..product-section td {
+  position: relative;
+}
+
+.product-section td:hover h3,
+.product-section td:hover p {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff; /* Color del texto */
+  padding: 10px;
+}
