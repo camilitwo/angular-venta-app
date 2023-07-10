@@ -1,5 +1,4 @@
 import { AfterViewInit, Component } from '@angular/core';
-import * as jq from 'jquery';
 import 'slick-carousel';
 
 declare var $: any;
