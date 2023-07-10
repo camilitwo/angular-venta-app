@@ -1,6 +1,6 @@
 name = "my-angular-app"
 type = "webpack"
-account_id = "<tu ID de cuenta de Cloudflare>"
+account_id = "3ab1134e15968a0159660bde4fb91ae9"
 
 [site]
 bucket = "./dist"
